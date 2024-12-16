@@ -1,0 +1,55 @@
+/* External CSS */
+body{
+  font-family:arial;
+  /*margin:0 auto;  New */
+}
+a{
+  text-decoration:none;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#click_me:hover{
+  color: red !important;
+}
+
+/* Change the color of the text of #click_me when you hover over it to white */
+
+
+/* CSS Specificity 
+   inline > id > class > element
+*/
+
+/* Start */
+/* Make #banner stand out */
+#banner{
+  background-image: url("flower.webp");
+  background-size: cover;
+  background-position: center;
+  color:red;
+  text-align: center;
+  padding:10px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(50%); 
+    filter: grayscale(50%);
+}
+
+
+nav {
+  padding: 5px;
+}
+nav a{
+  color:black;
+  margin: 0 10px 0 10px;
+}
+
